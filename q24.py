@@ -1,0 +1,5 @@
+elements = input("Enter tuple elements:").split()
+my_tuple = tuple(elements)
+new_item = input("Enter the item to add: ")
+updated_tuple = my_tuple + (new_item,)
+print("Updated tuple:", updated_tuple)
